@@ -56,6 +56,8 @@ export const siteConfig = {
     facebook: "https://facebook.com/fantasyauthor",
     goodreads: "https://goodreads.com/fantasyauthor",
   },
+  newsletterTitle: 'The Ink Dispatch',
+  newsletterDescription: "A biweekly letter from the author’s desk—offering behind-the-scenes looks at upcoming stories, reflections on the writing process, book recommendations, and exclusive early chapters for readers who can’t wait.",
   newsletterFormAction: "/api/newsletter",
   bookSeries: [
     {
