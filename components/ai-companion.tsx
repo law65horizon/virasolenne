@@ -145,7 +145,7 @@ export default function AICompanion() {
                     >
                       {message.role === "assistant" && (
                         <Avatar>
-                          <AvatarImage src={siteConfig.author.image} />
+                          <AvatarImage src={siteConfig.author_obj.image} />
                           <AvatarFallback>JW</AvatarFallback>
                         </Avatar>
                       )}
@@ -192,7 +192,7 @@ export default function AICompanion() {
                 {isLoading && (
                   <div className="flex items-start gap-3">
                     <Avatar>
-                      <AvatarImage src={siteConfig.author.image} />
+                      <AvatarImage src={siteConfig.author_obj.image} />
                       <AvatarFallback>JW</AvatarFallback>
                     </Avatar>
                     <Card className="max-w-[80%] p-4">
